@@ -1,0 +1,25 @@
+{
+  "install": {
+    "trait": {
+      "App\\Entity\\Product\\ProductVariant": {
+        "add": {
+          "LoevgaardSyliusBarcodePluginProductVariantTrait": "Loevgaard\\SyliusBarcodePlugin\\Model\\ProductVariantTrait"
+        }
+      }
+    },
+    "interface": {
+      "App\\Entity\\ProductVariant": {
+        "add": {
+          "barcodeProductVariantInterface": "Loevgaard\\SyliusBarcodePlugin\\Model\\ProductVariantInterface"
+        }
+      }
+    },
+    "config": {
+      "config/packages/_sylius.yaml" : {
+        "add": {
+          "configFile": "@DHArtisBarcodePlugin/Resources/config/config.yml"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,2 @@
+imports:
+    - { resource: "@LoevgaardSyliusBarcodePlugin/Resources/config/app/config.yaml" }
