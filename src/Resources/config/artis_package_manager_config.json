@@ -8,7 +8,7 @@
       }
     },
     "interface": {
-      "App\\Entity\\ProductVariant": {
+      "App\\Entity\\Product\\ProductVariantInterface": {
         "add": {
           "barcodeProductVariantInterface": "Loevgaard\\SyliusBarcodePlugin\\Model\\ProductVariantInterface"
         }
