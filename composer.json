@@ -1,7 +1,7 @@
 {
     "name": "digital-holding/artis-barcode-plugin",
     "type": "sylius-plugin",
-    "license": "proprietary",
+    "license": "MIT",
     "require": {
         "php": "^7.3",
         "sylius/sylius": "^1.6",
